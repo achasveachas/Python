@@ -37,10 +37,3 @@ class Deck:
     def deal_hand(self, num):
         return self._deal(num)
 
-deck = Deck()
-print(deck)
-print(deck.shuffle())
-print(deck._deal(5))
-print(deck)
-deck._deal(49)
-print(deck)
